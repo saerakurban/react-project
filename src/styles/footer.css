@@ -1,0 +1,74 @@
+.footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #fde4e4;
+}
+
+.footer_logo img{
+    width: 20%;
+    margin-bottom: 5px;
+}
+
+.footer_logo h5{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.footer_logo p{
+    font-size: .9rem;
+    color: #333;
+    line-height: 28px;
+}
+
+.delivery_time-item {
+    background: transparent !important;
+}
+
+.delivery_time-item span {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+    background: transparent;
+}
+
+.delivery_time-item p{
+    color: #212245;
+}
+.footer_title {
+    font-size: 1.1rem;
+    color: #212245;
+    font-weight: 600;
+}
+
+.social_media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_media i{
+    font-size: 2.5rem;
+}
+
+.made_by{
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width:768px){
+    .footer_title{
+        font-size: 0.8rem;
+    }
+    .delivery_time-item span{
+        font-size: 0.8rem;
+    }
+    .delivery_time-item p{
+        font-size: 0.7rem;
+        margin-bottom: 0;
+    }
+    .made_by{
+        text-align: center;
+    }
+}
+
+
